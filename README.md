@@ -19,8 +19,8 @@ To write a YACC program to recognize the grammar anb where n>=10.
 
 ## PROGRAM :
 
-```
-### PROGRAM 1:
+
+### PROGRAM 1 :
     %{
     /* Definition section */
     #include "y.tab.h"
@@ -39,7 +39,7 @@ To write a YACC program to recognize the grammar anb where n>=10.
         return 1;
     }
 
-### PROGRAM 2:
+### PROGRAM 2 :
     %{
     /* Definition section */
     #include<stdio.h>
@@ -72,7 +72,7 @@ To write a YACC program to recognize the grammar anb where n>=10.
         yyparse();
         return 0;
     }
-```
+
 ## OUTPUT :
 
 ![image](https://github.com/user-attachments/assets/d68f5395-ca5c-4e0b-901e-3f8b38e7560f)
